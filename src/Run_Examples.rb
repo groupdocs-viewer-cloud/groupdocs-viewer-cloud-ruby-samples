@@ -55,11 +55,35 @@ require 'Working_With_Document_Pages/Rendering_Document_Pages/Viewer_Ruby_Create
 require 'Working_With_Document_Pages/Rendering_Document_Pages/Viewer_Ruby_Create_Document_Cache_Url_With_ImageOptions.rb'
 require 'Working_With_Document_Pages/Rendering_Document_Pages/Viewer_Ruby_Create_Pages_Cache_Request_HTML.rb'
 require 'Working_With_Document_Pages/Rendering_Document_Pages/Viewer_Ruby_Create_Pages_Cache_Request_Image.rb'
+require 'Working_With_Document_Pages/Rendering_Document_Pages/Viewer_Ruby_Create_Project_Page_Cache_HTML.rb'
+require 'Working_With_Document_Pages/Rendering_Document_Pages/Viewer_Ruby_Create_Project_Page_Cache_Image.rb'
+require 'Working_With_Document_Pages/Rendering_Document_Pages/Viewer_Ruby_Download_Document_Page_HTML.rb'
+require 'Working_With_Document_Pages/Rendering_Document_Pages/Viewer_Ruby_Download_Document_Page_Image.rb'
+require 'Working_With_Document_Pages/Rendering_Document_Pages/Viewer_Ruby_Exclude_Fonts.rb'
+require 'Working_With_Document_Pages/Rendering_Document_Pages/Viewer_Ruby_Get_Pages_HTML.rb'
+require 'Working_With_Document_Pages/Rendering_Document_Pages/Viewer_Ruby_Get_Pages_Image.rb'
+require 'Working_With_Document_Pages/Rendering_Document_Pages/Viewer_Ruby_Get_Pages_URL_HTML.rb'
+require 'Working_With_Document_Pages/Rendering_Document_Pages/Viewer_Ruby_Get_Pages_URL_Image.rb'
+require 'Working_With_Document_Pages/Rendering_Document_Pages/Viewer_Ruby_Get_ZIP_With_Pages_HTML.rb'
+require 'Working_With_Document_Pages/Rendering_Document_Pages/Viewer_Ruby_Get_ZIP_With_Pages_Image.rb'
+require 'Working_With_Document_Pages/Rendering_Document_Pages/Viewer_Ruby_Remove_Document_Cache_for_HTML_Pages.rb'
+require 'Working_With_Document_Pages/Rendering_Document_Pages/Viewer_Ruby_Remove_Document_Cache_for_Image_Pages.rb'
+require 'Working_With_Document_Pages/Rendering_Document_Pages/Viewer_Ruby_Render_CAD_Tiles.rb'
+require 'Working_With_Document_Pages/Rendering_Document_Pages/Viewer_Ruby_Render_Email_PDF.rb'
+require 'Working_With_Document_Pages/Rendering_Document_Pages/Viewer_Ruby_Render_Hidden_Rows.rb'
+require 'Working_With_Document_Pages/Rendering_Document_Pages/Viewer_Ruby_Render_PDF_DefaultFont.rb'
+require 'Working_With_Document_Pages/Rendering_Document_Pages/Viewer_Ruby_Render_PrintArea_Only.rb'
+require 'Working_With_Document_Pages/Rendering_Document_Pages/Viewer_Ruby_Reorder_Page_HTML.rb'
+require 'Working_With_Document_Pages/Rendering_Document_Pages/Viewer_Ruby_Reorder_Page_Image.rb'
+require 'Working_With_Document_Pages/Rendering_Document_Pages/Viewer_Ruby_Rotate_Page_HTML.rb'
+require 'Working_With_Document_Pages/Rendering_Document_Pages/Viewer_Ruby_Rotate_Page_Image.rb'
+require 'Working_With_Document_Pages/Rendering_Document_Pages/Viewer_Ruby_Set_Image_Quality.rb'
+require 'Working_With_Document_Pages/Rendering_Document_Pages/Viewer_Ruby_Text_Overflow_Mode.rb'
 require 'common_utilities/Utils.rb'
 
 # Get your app_sid and app_key at https://dashboard.groupdocs.cloud (free registration is required).
-$app_sid = "d215ce72-1609-4282-8d55-5810942236fb"
-$app_key = "715d18b0afef2f303882c769921fe05a"
+$app_sid = "XXXXX-XXXXX-XXXXX"
+$app_key = "XXXXXXXXXXXXX"
 $storageName = "MyStorage" #Put your storage name here
 $host_url = "http://api.groupdocs.cloud"   # Put your Host URL here
 $base_url = "http://api.groupdocs.cloud" #Put your Base URL here
@@ -69,12 +93,12 @@ class Run_Examples
   #  puts("Executing Upload Test Files...")
   #  Common_Utilities.Upload_Test_File()
 
-  #  # ******* Execute Examples *******
-  #  puts("*** Executing examples...")
-  #  # ******* Execute Examples *******
+  # ******* Execute Examples *******
+  puts("*** Executing examples...")
+  # ******* Execute Examples *******
 
-  #  puts("* Executing Get_All_Supported_File_Formats...")
-  #  File_Formats.Get_All_Supported_File_Formats()
+  puts("* Executing Get_All_Supported_File_Formats...")
+  File_Formats.Get_All_Supported_File_Formats()
 
   #  puts("* Executing Get_Attachment_From_Email_HTML...")
   #  Working_With_Attachments.Get_Attachment_From_Email_HTML()
@@ -243,5 +267,77 @@ class Run_Examples
 
   #  puts("* Executing Create_Pages_Cache_Request_Image...")
   #  Rendering_Document_Pages.Create_Pages_Cache_Request_Image()
+
+  #  puts("* Executing Create_Project_Page_Cache_HTML...")
+  #  Rendering_Document_Pages.Create_Project_Page_Cache_HTML()
+
+  #  puts("* Executing Create_Project_Page_Cache_Image...")
+  #  Rendering_Document_Pages.Create_Project_Page_Cache_Image()
+
+  #  puts("* Executing Download_Document_Page_HTML...")
+  #  Rendering_Document_Pages.Download_Document_Page_HTML()
+
+  #  puts("* Executing Download_Document_Page_Image...")
+  #  Rendering_Document_Pages.Download_Document_Page_Image()
+
+  #  puts("* Executing Exclude_Fonts...")
+  #  Rendering_Document_Pages.Exclude_Fonts()
+
+  #  puts("* Executing Get_Pages_HTML...")
+  #  Rendering_Document_Pages.Get_Pages_HTML()
+
+  #  puts("* Executing Get_Pages_Image...")
+  #  Rendering_Document_Pages.Get_Pages_Image()
+
+  #  puts("* Executing Get_Pages_URL_HTML...")
+  #  Rendering_Document_Pages.Get_Pages_URL_HTML()
+
+  #  puts("* Executing Get_Pages_URL_Image...")
+  #  Rendering_Document_Pages.Get_Pages_URL_Image()
+
+  #  puts("* Executing Get_ZIP_With_Pages_HTML...")
+  #  Rendering_Document_Pages.Get_ZIP_With_Pages_HTML()
+
+  #  puts("* Executing Get_ZIP_With_Pages_Image...")
+  #  Rendering_Document_Pages.Get_ZIP_With_Pages_Image()
+
+  #  puts("* Executing Remove_Document_Cache_for_HTML_Pages...")
+  #  Rendering_Document_Pages.Remove_Document_Cache_for_HTML_Pages()
+
+  #  puts("* Executing Remove_Document_Cache_for_Image_Pages...")
+  #  Rendering_Document_Pages.Remove_Document_Cache_for_Image_Pages()
+
+  #  puts("* Executing Render_CAD_Tiles...")
+  #  Rendering_Document_Pages.Render_CAD_Tiles()
+
+  #  puts("* Executing Render_Email_PDF...")
+  #  Rendering_Document_Pages.Render_Email_PDF()
+
+  #  puts("* Executing Render_Hidden_Rows...")
+  #  Rendering_Document_Pages.Render_Hidden_Rows()
+
+  #  puts("* Executing Render_PDF_DefaultFont...")
+  #  Rendering_Document_Pages.Render_PDF_DefaultFont()
+
+  #  puts("* Executing Render_PrintArea_Only...")
+  #  Rendering_Document_Pages.Render_PrintArea_Only()
+
+  #  puts("* Executing Reorder_Page_HTML...")
+  #  Rendering_Document_Pages.Reorder_Page_HTML()
+
+  #  puts("* Executing Reorder_Page_Image...")
+  #  Rendering_Document_Pages.Reorder_Page_Image()
+
+  #  puts("* Executing Rotate_Page_HTML...")
+  #  Rendering_Document_Pages.Rotate_Page_HTML()
+
+  #  puts("* Executing Rotate_Page_Image...")
+  #  Rendering_Document_Pages.Rotate_Page_Image()
+
+  #  puts("* Executing Set_Image_Quality...")
+  #  Rendering_Document_Pages.Set_Image_Quality()
+
+  #  puts("* Executing Text_Overflow_Mode...")
+  #  Rendering_Document_Pages.Text_Overflow_Mode()
 
 end

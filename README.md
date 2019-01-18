@@ -7,7 +7,7 @@ This repository contains [Examples](Examples) projects for [GroupDocs.Viewer Clo
 <p align="center">
 
   <a title="Download complete GroupDocs.Viewer Cloud SDK Examples for Ruby source code" href="https://github.com/groupdocs-viewer-cloud/groupdocs-viewer-cloud-ruby-samples/archive/master.zip">
-	<img src="https://raw.github.com/AsposeExamples/Ruby-examples-dashboard/master/images/downloadZip-Button-Large.png" />
+	<img src="Download complete GroupDocs.Viewer Cloud SDK Examples for PHP source code" href="https://github.com/groupdocs-viewer-cloud/groupdocs-viewer-cloud-php-samples/archive/master.zip">" />
   </a>
 </p>
 

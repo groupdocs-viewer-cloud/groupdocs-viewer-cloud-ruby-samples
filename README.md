@@ -19,7 +19,7 @@ Directory | Description
 
 + **Website:** [www.GroupDocs.cloud](http://www.GroupDocs.cloud)
 + **Product Home:** [GroupDocs.Viewer Cloud SDK for Ruby](https://products.groupdocs.cloud/Viewer/Ruby)
-+ **Download:** [Download GroupDocs.Viewer Cloud SDK for Ruby](https://www.nuget.org/packages/GroupDocs.Viewer-Cloud/)
++ **Download:** [Download GroupDocs.Viewer Cloud SDK for Ruby](https://rubygems.org/gems/groupdocs_viewer_cloud/)
 + **Documentation:** [GroupDocs.Viewer Cloud SDK Documentation](https://docs.groupdocs.cloud/display/Viewercloud/Home)
 + **Free Support:** [GroupDocs.Viewer Cloud SDK Free Support Forum](https://forum.groupdocs.cloud/c/Viewer)
 + **Blog:** [GroupDocs.Viewer Cloud SDK Blog](https://blog.groupdocs.cloud/category/Viewer/)

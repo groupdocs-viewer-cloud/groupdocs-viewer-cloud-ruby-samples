@@ -6,11 +6,10 @@ This repository contains [Examples](Examples) projects for [GroupDocs.Viewer Clo
 
 <p align="center">
 
-  <a title="Download complete GroupDocs.Conversion Cloud SDK Examples for Ruby source code" href="https://github.com/groupdocs-viewer-cloud/groupdocs-viewer-cloud-ruby-samples/archive/master.zip">
+  <a title="Download complete GroupDocs.Viewer Cloud SDK Examples for Ruby source code" href="https://github.com/groupdocs-viewer-cloud/groupdocs-viewer-cloud-ruby-samples/archive/master.zip">
 	<img src="https://raw.github.com/AsposeExamples/java-examples-dashboard/master/images/downloadZip-Button-Large.png" />
   </a>
 </p>
-
 
 Directory | Description
 --------- | -----------
@@ -20,7 +19,7 @@ Directory | Description
 
 + **Website:** [www.GroupDocs.cloud](http://www.GroupDocs.cloud)
 + **Product Home:** [GroupDocs.Viewer Cloud SDK for Ruby](https://products.groupdocs.cloud/Viewer/Ruby)
-+ **Download:** [Download GroupDocs.Viewer Cloud SDK for Ruby](https://www.nuget.org/packages/GroupDocs.Viewer-Cloud/)
++ **Download:** [Download GroupDocs.Viewer Cloud SDK for Ruby](https://rubygems.org/gems/groupdocs_viewer_cloud/)
 + **Documentation:** [GroupDocs.Viewer Cloud SDK Documentation](https://docs.groupdocs.cloud/display/Viewercloud/Home)
 + **Free Support:** [GroupDocs.Viewer Cloud SDK Free Support Forum](https://forum.groupdocs.cloud/c/Viewer)
 + **Blog:** [GroupDocs.Viewer Cloud SDK Blog](https://blog.groupdocs.cloud/category/Viewer/)

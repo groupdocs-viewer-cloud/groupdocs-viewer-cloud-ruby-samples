@@ -1,9 +1,9 @@
 require 'common_utilities/Utils.rb'
 
 # Get your app_sid and app_key at https://dashboard.groupdocs.cloud (free registration is required).
-$app_sid = "d215ce72-1609-4282-8d55-5810942236fb"
-$app_key = "715d18b0afef2f303882c769921fe05a"
-$myStorage = "MyStorage" #Put your storage name here
+$app_sid = "XXXXX-XXXXX-XXXXX"
+$app_key = "XXXXXXXXXX"
+$myStorage = "XXXXX" #Put your storage name here
 $host_url = "http://api.groupdocs.cloud"   # Put your Host URL here
 
 class Run_Examples
@@ -182,5 +182,13 @@ class Run_Examples
   #  require 'Working_With_View/Viewer_Ruby_Delete_View_With_Default_ViewFormat.rb'
   #  puts("* Executing Viewer_Ruby_Delete_View_With_Default_ViewFormat...")
   #  Working_With_View.Viewer_Ruby_Delete_View_With_Default_ViewFormat()
+
+  #    require 'Working_With_View/Viewer_Ruby_Create_View_With_Responsive_HTML.rb'
+  #    puts("* Executing Viewer_Ruby_Create_View_With_Responsive_HTML...")
+  #    Working_With_View.Viewer_Ruby_Create_View_With_Responsive_HTML()
+
+  #  require 'Working_With_View/Viewer_Ruby_Create_View_With_OutputPath.rb'
+  #  puts("* Executing Viewer_Ruby_Create_View_With_OutputPath...")
+  #  Working_With_View.Viewer_Ruby_Create_View_With_OutputPath()
 
 end

@@ -6,7 +6,7 @@ class File_Formats
   def self.Get_All_Supported_File_Formats()
 
     # Getting instance of the API
-    api = Common_Utilities.Get_ViewerApi_Instance()
+    api = Common_Utilities.Get_InfoApi_Instance()
 
     # Retrieve supported file-formats
     response = api.get_supported_file_formats()

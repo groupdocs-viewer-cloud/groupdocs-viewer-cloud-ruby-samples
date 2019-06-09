@@ -6,7 +6,7 @@ class Working_With_View
   def self.Viewer_Ruby_Create_View_With_Image_View_Format(*format)
 
     # Getting instance of the API
-    $api = Common_Utilities.Get_ViewerApi_Instance()
+    $api = Common_Utilities.Get_ViewApi_Instance()
 
     $viewOptions = GroupDocsViewerCloud::ViewOptions.new()
 

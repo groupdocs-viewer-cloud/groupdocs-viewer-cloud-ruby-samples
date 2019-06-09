@@ -6,7 +6,7 @@ class Working_With_Document_Information
   def self.Viewer_Ruby_Get_Info_With_Image_View_Format(*format)
 
     # Getting instance of the API
-    $api = Common_Utilities.Get_ViewerApi_Instance()
+    $api = Common_Utilities.Get_InfoApi_Instance()
 
     $viewOptions = GroupDocsViewerCloud::ViewOptions.new()
 

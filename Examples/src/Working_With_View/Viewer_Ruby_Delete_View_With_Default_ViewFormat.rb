@@ -6,7 +6,7 @@ class Working_With_View
   def self.Viewer_Ruby_Delete_View_With_Default_ViewFormat()
 
     # Getting instance of the API
-    $api = Common_Utilities.Get_ViewerApi_Instance()
+    $api = Common_Utilities.Get_ViewApi_Instance()
 
     $deleteViewOptions = GroupDocsViewerCloud::DeleteViewOptions.new()
 

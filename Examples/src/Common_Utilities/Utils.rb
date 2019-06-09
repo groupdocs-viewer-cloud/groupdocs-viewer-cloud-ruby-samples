@@ -9,9 +9,14 @@ $host_url = "http://api.groupdocs.cloud"   # Put your Host URL here
 $myStorage = "MyStorage"
 
 class Common_Utilities
-  def self.Get_ViewerApi_Instance()
+  def self.Get_ViewApi_Instance()
     # Create instance of the API
-    return GroupDocsViewerCloud::ViewerApi.from_keys($app_sid, $app_key)
+    return GroupDocsViewerCloud::ViewApi.from_keys($app_sid, $app_key)
+  end
+
+  def self.Get_InfoApi_Instance()
+    # Create instance of the API
+    return GroupDocsViewerCloud::InfoApi.from_keys($app_sid, $app_key)
   end
 
   def self.Get_StorageApi_Instance()

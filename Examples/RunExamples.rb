@@ -27,6 +27,10 @@ class RunExamples
   HtmlViewerMinifyHtml.Run()
   require './BasicUsage/HtmlViewer/HtmlViewerResponsiveLayout.rb'
   HtmlViewerResponsiveLayout.Run()
+  require './BasicUsage/HtmlViewer/HtmlViewerLimitImageSize.rb'
+  HtmlViewerLimitImageSize.Run()
+  require './BasicUsage/HtmlViewer/HtmlViewerOptimizeForPrinting.rb'
+  HtmlViewerOptimizeForPrinting.Run()
   require './BasicUsage/ImageViewer/ImageViewerAddTextOverlay.rb'
   ImageViewerAddTextOverlay.Run()
   require './BasicUsage/ImageViewer/ImageViewerAdjustImageSize.rb'
@@ -126,5 +130,10 @@ class RunExamples
   SplitWorksheetsIntoPages.Run()              
   require './AdvancedUsage/RenderingOptionsByFileType/RenderingWordProcessingDocuments/RenderTrackedChanges.rb'
   RenderTrackedChanges.Run()   
-
+  require './AdvancedUsage/RenderingOptionsByFileType/RenderingLotusNotesDatabase/FilterMailStorage.rb'
+  FilterMailStorage.Run()   
+  require './AdvancedUsage/RenderingOptionsByFileType/RenderingTextFiles/SpecifyMaxCharsAndRows.rb'
+  SpecifyMaxCharsAndRows.Run()   
+  require './AdvancedUsage/RenderingOptionsByFileType/RenderingVisioDocuments/RenderVisioDocumentFigures.rb'
+  RenderVisioDocumentFigures.Run()   
 end

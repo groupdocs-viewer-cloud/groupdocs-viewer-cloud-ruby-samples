@@ -10,7 +10,9 @@ class PdfViewerAdjustJpgQuality
         viewOptions.file_info.file_path = "SampleFiles/with_jpg_image.pptx"
         viewOptions.view_format = "PDF"
         viewOptions.render_options = GroupDocsViewerCloud::PdfOptions.new
-        viewOptions.render_options.jpg_quality = 50  
+        viewOptions.render_options.pdf_optimization_options = GroupDocsViewerCloud::PdfOptimizationOptions.new
+        viewOptions.render_options.pdf_optimization_options.compress_images = true
+        viewOptions.render_options.pdf_optimization_options.image_quality = 80
 
         request = GroupDocsViewerCloud::CreateViewRequest.new(viewOptions)    
         response = apiInstance.create_view(request)
